@@ -1,0 +1,111 @@
+body{
+    background-color: #C4BCA0;
+}
+.navbar .nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > .active > a {
+    background-color: #C4BCA0;
+    color: black;
+    border-top: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+}
+.css-slideshow{
+   position: relative;
+   max-width: 500px;
+   height: 300px;
+   margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+   margin: 0;
+   position: absolute;
+}
+.css-slideshow figure{
+   opacity:0;
+}
+#brand{
+    color: black;
+}
+#icon{
+    display: block;
+}
+#mySlideImgs{
+    max-width: 1000px;
+    max-height: 200px;
+    background-size: 100% 100%;
+}
+#mySlideShowCon{
+    background-color: #6C59F3;
+    color: black;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#firstCol{
+    padding: 5px;
+}
+#secondCol{
+    padding: 5px;
+    border-left: solid black 1px;
+}
+#thirdCol{
+    padding: 5px;
+    border-left: solid black 1px;   
+}
+.bgImg{
+    background-image: url("purple.jpg");
+    padding: 100px 0px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#myNav{
+    background-color: #5546BF;
+    border-bottom: solid black 1px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#headPic{
+
+}
+#myHeader{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+}
+#myContent{
+    background-color: #6C59F3;
+    color: black;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#myPic{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 1400px) {
+    .bgImg{
+        background-image: url("purple.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 500px) {
+    .bgImg{
+        background-image: url("cellPurple.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}

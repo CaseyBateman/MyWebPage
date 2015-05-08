@@ -48,6 +48,15 @@ p{
     padding: 5px;
     font-size: 16px;
 }
+#thirdColFP{
+    padding: 250px 0px;
+    border-left: solid black 1px;
+    background-image: url("jamming.jpg");
+    background-size: 100% 100%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
 #thirdCol{
     padding: 250px 0px;
     border-left: solid black 1px;
@@ -77,9 +86,6 @@ p{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-}
-#headPic{
-
 }
 #myHeader{
     font-family: "Comic Sans MS", cursive, sans-serif;

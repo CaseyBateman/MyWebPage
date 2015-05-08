@@ -1,6 +1,17 @@
 body{
     background-color: #C4BCA0;
 }
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+p{
+    color: white;
+    font-size: 17px;
+}
 .navbar .nav > li > a {
     color: black;
 }
@@ -30,31 +41,21 @@ body{
 #icon{
     display: block;
 }
-#mySlideImgs{
-    max-width: 1000px;
-    max-height: 200px;
-    background-size: 100% 100%;
-}
-#mySlideShowCon{
-    background-color: #6C59F3;
-    color: black;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-}
 #firstCol{
     padding: 5px;
 }
 #secondCol{
     padding: 5px;
-    border-left: solid black 1px;
+    font-size: 16px;
 }
 #thirdCol{
-    padding: 5px;
-    border-left: solid black 1px;   
+    padding: 250px 0px;
+    border-left: solid black 1px;
+    background-image: url("me.jpg");
+    background-size: 100% 100%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .bgImg{
     background-image: url("purple.jpg");
@@ -64,6 +65,10 @@ body{
     -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.skillsPic{
+    width: 80%;
+    height: 80%;
 }
 #myNav{
     background-color: #5546BF;
@@ -102,10 +107,20 @@ body{
         background-repeat: no-repeat;
     }
 }
+@media screen and (max-width: 1000px) {
+    .skillsPic{
+        width: 60%;
+        height: 60%;
+    }
+}
 @media screen and (max-width: 500px) {
     .bgImg{
         background-image: url("cellPurple.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
+    }
+    .skillsPic{
+        width: 80%;
+        height: 80%;
     }
 }
